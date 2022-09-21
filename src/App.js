@@ -17,9 +17,9 @@ export default function App() {
   };
   React.useEffect(() => {
     setOutput(true);
-    console.log(data, "eff");
+    console.log(data);
   }, [data]);
-  console.log(data, "data");
+  console.log(data);
   return (
     <div className="container d-flex justify-content-center">
       <div className=" justify-content-center">
@@ -47,23 +47,39 @@ export default function App() {
             </button>
           </div>
         </div>
-        <div className="row mt-4 mb-3">
+        <div className="row mt-3">
+          <h2 className="d-flex justify-content-center colorText">Country:</h2>
+          <h5 className="d-flex justify-content-center">
+            {output ? data?.sys?.country : "****"}
+          </h5>
+        </div>
+        <div className="row mt-3 mb-2">
           <h2 className="text-dark d-flex justify-content-center">
-            {output ? data?.name : "****"}
+            {output ? data?.name : "Invalid Place"}
           </h2>
         </div>
         <div className="row ">
-          <h2 className="d-flex justify-content-center">Temperature:</h2>
+          <h2 className="d-flex justify-content-center colorText">
+            Temperature:
+          </h2>
           <h5 className="d-flex justify-content-center">
             {output ? data?.main?.temp : "****"}&#8451;
           </h5>
-        </div>{" "}
+        </div>
         <div className="row mt-4">
-          <h2 className="d-flex justify-content-center">Weather:</h2>
+          <h2 className="d-flex justify-content-center colorText">Weather:</h2>
           <h5 className="d-flex justify-content-center">
             {output
               ? data.length !== 0 && data?.weather[0]?.description
               : "****"}
+          </h5>
+        </div>
+        <div className="row mt-3">
+          <h2 className="d-flex justify-content-center colorText">
+            Wind Speed:
+          </h2>
+          <h5 className="d-flex justify-content-center">
+            {output ? data?.wind?.speed : "****"}/kmph
           </h5>
         </div>
         <div className="row"></div>
