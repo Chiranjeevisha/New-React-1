@@ -1,0 +1,11 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../img-assets/weather-background.png);
+}
+button {
+  background: #fff;
+}
+.inptDesign {
+  background: none;
+}
