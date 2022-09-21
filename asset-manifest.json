@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/New-React-1/static/css/main.8469fc59.css",
-    "main.js": "/New-React-1/static/js/main.fe8c4778.js",
+    "main.css": "/New-React-1/static/css/main.da22ada8.css",
+    "main.js": "/New-React-1/static/js/main.419193e4.js",
     "static/js/787.4e5f8b91.chunk.js": "/New-React-1/static/js/787.4e5f8b91.chunk.js",
     "static/media/weather-background.png": "/New-React-1/static/media/weather-background.d129386661e06cb380c8.png",
     "index.html": "/New-React-1/index.html",
-    "main.8469fc59.css.map": "/New-React-1/static/css/main.8469fc59.css.map",
-    "main.fe8c4778.js.map": "/New-React-1/static/js/main.fe8c4778.js.map",
+    "main.da22ada8.css.map": "/New-React-1/static/css/main.da22ada8.css.map",
+    "main.419193e4.js.map": "/New-React-1/static/js/main.419193e4.js.map",
     "787.4e5f8b91.chunk.js.map": "/New-React-1/static/js/787.4e5f8b91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8469fc59.css",
-    "static/js/main.fe8c4778.js"
+    "static/css/main.da22ada8.css",
+    "static/js/main.419193e4.js"
   ]
 }
